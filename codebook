@@ -1,0 +1,9 @@
+Data frame variables have their names taken from the "features.txt" file that comes with the dataset.  
+See the dataset documentation files for detailed discusion of measured variables.
+
+Two additional variables are added to the data frame.
+
+"Subject" serves as an index to which of the 30 subjects each observation corresponds to.
+"Activity" likewise indexes which of the six activity types is associated with each observation.
+
+The "tidy" data frame subset created for this assignment was output to tidy.txt using the write.table function.
