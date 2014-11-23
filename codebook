@@ -7,3 +7,6 @@ Two additional variables are added to the data frame.
 "Activity" likewise indexes which of the six activity types is associated with each observation.
 
 The "tidy" data frame subset created for this assignment was output to tidy.txt using the write.table function.
+This data frame summarizes only the mean and std variables of the combined test/training data sets.  For each
+of the 30 subjects and each of the 6 possible activities, the data frame continas a computed average value for 
+each of the 80+ mean/std variables provided in the data set.
